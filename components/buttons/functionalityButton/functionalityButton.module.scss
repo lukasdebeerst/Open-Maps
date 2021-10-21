@@ -1,0 +1,21 @@
+@import "../../../styles/_container";
+@import "../../../styles/_variables";
+
+
+.functionality__container {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 20px;
+    color: black;
+    background-color: white;
+
+    img {
+        height: 25px;
+    }
+
+}

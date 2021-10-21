@@ -1,0 +1,14 @@
+@import "./mixins";
+
+.content__container {
+    width: 95vw;
+    margin: 0 auto;
+
+    // @include breakpoint(tablet-ls){
+    //     width: 80vw;
+    // }
+
+    // @include breakpoint(desktop-wide){
+    //     width: 1500px;
+    // }
+}

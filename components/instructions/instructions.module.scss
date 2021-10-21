@@ -1,0 +1,22 @@
+.container {
+    margin: 20px 0px;
+
+    .title {
+        font-weight: bold;
+    }
+
+    .details {
+
+        display: flex;
+        margin-top: 5px;
+
+        div {
+            margin-right: 25px;
+            img {
+                height: 15px;
+                margin-right: 15px;
+            }
+        }
+    }
+   
+}

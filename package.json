@@ -1,0 +1,32 @@
+{
+  "name": "geo_v2",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@react-leaflet/universal-leaflet": "^1.0.1",
+    "@reduxjs/toolkit": "^1.6.1",
+    "babel-runtime": "^6.26.0",
+    "leaflet": "^1.7.1",
+    "leaflet-defaulticon-compatibility": "^0.1.1",
+    "leaflet-routing-machine": "^3.2.12",
+    "mobx": "^6.3.5",
+    "mobx-react-lite": "^3.2.1",
+    "next": "11.1.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-leaflet": "^3.2.1",
+    "react-leaflet-enhanced-marker": "^1.0.21",
+    "react-leaflet-markercluster": "^3.0.0-rc1",
+    "sass": "^1.42.1"
+  },
+  "devDependencies": {
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.2"
+  }
+}

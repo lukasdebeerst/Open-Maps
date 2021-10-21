@@ -1,0 +1,42 @@
+@import "../../styles/container";
+@import "../../styles/variables";
+@import "../../styles/mixins";
+
+.container {
+    background-color: white;
+    // grid-row: 1;
+    // grid-column: 1;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: $basic-shadow;
+    position: absolute;
+    z-index: 999;
+    top: 0px;
+    width: 100vw;
+
+    .content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .logo {
+
+            display: none;
+
+            @include breakpoint(tablet){
+                height: 25px;
+                display: block;
+            }
+        }
+
+      
+    }
+
+   
+}
+
+.menuItem {
+    height: 25px;
+}

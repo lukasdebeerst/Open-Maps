@@ -1,0 +1,96 @@
+@import "../../styles/container";
+@import "../../styles/routing";
+
+
+.container {
+    
+    position: absolute;
+ 
+    z-index: 999;    
+    bottom: 0%;
+
+    @include breakpoint(tablet-ls){
+        top: 10%;
+        left: 1%;
+    }
+   
+
+    .content {
+        // margin-top:100px;
+        background-color: white;
+        border-radius: 15px;
+
+        @include breakpoint(tablet-ls){
+            width: 400px;
+        }
+
+        .header {
+            display: flex;
+            flex-flow: column;
+            background-color: $primaryColor;
+            color: white;
+            border-radius: 15px;
+            padding: 30px;
+            
+            input {
+                max-width: 100%;
+            }
+
+            .route__label {
+                font-weight: bold;
+                margin-bottom: 20px;
+            }
+
+            .title {
+
+                font-size: 18px;
+
+                @include breakpoint(tablet-ls){
+                    font-size: 28px
+                }
+            }
+
+            
+        }
+
+        .details {
+            padding: 30px;
+        }
+
+        .cta {
+            display: flex;
+            justify-content: center;
+            align-items: space-between;
+            padding: 30px;
+
+            div {
+                display: flex;
+                flex-flow: column;
+                align-items: center;
+                justify-content: center;
+
+                img {
+                    height: 25px;
+                }
+
+                span {
+                    margin-top: 10px;
+                }
+            }
+        }
+
+        .instructions__container {
+            width: 80%;
+            margin: 0 auto;
+            max-height: 30vw;
+            overflow: hidden;
+            overflow-y: scroll;
+
+            .instructions__title {
+                font-size: 28px;
+                font-weight: bold;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,21 @@
+@import "../../styles/container";
+@import "../../styles/variables";
+@import "../../styles/mixins";
+
+.settings__container {
+    background-color: white;
+    bottom: 0;
+    right: 0;
+    z-index: 1000;
+    position: absolute;
+    padding: 15px;
+    width: 100vw;
+    height: 100vh;
+
+
+    @include breakpoint(tablet-ls){
+        width: 30vw;
+        z-index: 998;
+        height: 95vh;
+    }
+}

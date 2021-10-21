@@ -1,0 +1,26 @@
+@import "../../../styles/_container";
+@import "../../../styles/_variables";
+
+.button__container {
+    height: 100px;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin-bottom:  20px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items:flex-end;
+    border-radius: 15px;
+    cursor: pointer;
+
+    // border: $primaryColor 5px solid;
+    
+    span {
+        color: white;
+        margin: 10px;
+    }
+
+
+}
