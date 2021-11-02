@@ -1,7 +1,7 @@
 import Style from "./settings.module.scss";
 import {observer} from "mobx-react-lite";
 import AppearanceButton from "../../components/buttons/appearanceButton/appearanceButton";
-import FunctionalityButton from "../../components/buttons/FunctionalityButton/FunctionalityButton"
+import FunctionalityButton from "../../components/buttons/functionalityButton/functionalityButton"
 import {useStore} from "../../hooks/useStore";
 
 import satellite from "../../assets/UI/appearance/appearance_satellite.png"
