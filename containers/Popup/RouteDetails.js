@@ -1,5 +1,4 @@
 import TextInput from "../../components/textInput/textInput";
-import PrimaryButton from "../../components/buttons/primaryButton";
 import {observer} from "mobx-react-lite";
 
 import {useStore} from "../../hooks/useStore";

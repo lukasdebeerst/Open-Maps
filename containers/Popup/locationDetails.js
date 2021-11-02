@@ -1,7 +1,6 @@
 import {useStore} from "../../hooks/useStore";
 import {observer} from "mobx-react-lite";
 import Route  from "../../assets/UI/location.svg";
-import Image from "next/Image";
 
 import FunctionalityButton from "../../components/buttons/functionalityButton/functionalityButton";
 
