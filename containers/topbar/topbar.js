@@ -1,8 +1,6 @@
 import SearchBar from "../Searchbar/Searchbar";
 import Logo from "../../assets/UI/logo.svg";
-import Add from "../../assets/UI/add.svg";
 import settings from "../../assets/UI/settings.svg";
-import Image from "next/Image";
 import Style from "./topbar.module.scss";
 import {useStore} from "../../hooks/useStore";
 
